@@ -17,9 +17,9 @@
     "return_type": "json"
   },
   {
-    "name": "/test2",
+    "name": "/test1",
     "description": "",
-    "method": "GET",
+    "method": "PoST",
     "endpoint": "/test2",
     "data_source": {
       "cluster_id": 3329005
