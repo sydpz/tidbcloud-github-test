@@ -19,7 +19,7 @@
   {
     "name": "/test1",
     "description": "",
-    "method": "PoST",
+    "method": "POST",
     "endpoint": "/test2",
     "data_source": {
       "cluster_id": 3329005
