@@ -2,6 +2,23 @@
   {
     "name": "/test1",
     "description": "",
+    "method": "GET",
+    "endpoint": "/test1",
+    "data_source": {
+      "cluster_id": 3329005
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-test1.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/test1",
+    "description": "",
     "method": "POST",
     "endpoint": "/test2",
     "data_source": {
@@ -14,7 +31,7 @@
         "value_type": "",
         "value_map": null,
         "required": 0,
-        "default": "",
+        "default": "123",
         "description": "",
         "pattern": ""
       }
@@ -24,23 +41,6 @@
       "row_limit": 50
     },
     "sql_file": "sql/POST-test2.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/test1",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/test1",
-    "data_source": {
-      "cluster_id": 3329005
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "sql_file": "sql/GET-test1.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
