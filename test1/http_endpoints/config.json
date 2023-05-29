@@ -20,7 +20,7 @@
     "name": "/test2",
     "description": "",
     "method": "GET",
-    "endpoint": "/test1",
+    "endpoint": "/test2",
     "data_source": {
       "cluster_id": 3329005
     },
