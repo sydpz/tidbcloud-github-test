@@ -5,3 +5,4 @@ Declare a parameter like "Where id = ${arg}".
 */
 SELECT "Hello World";
 select "test 2 ${test}";
+select "test 3 ${test}";
