@@ -29,7 +29,7 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-test1.sql",
+    "sql_file": "sql/GET-test2.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
