@@ -1,0 +1,32 @@
+[
+  {
+    "name": "/test123",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/test123",
+    "data_source": {
+      "cluster_id": 1379661944639624099
+    },
+    "params": [
+      {
+        "name": "limit",
+        "type": "string",
+        "required": 0,
+        "default": "1",
+        "description": "limit"
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-test123.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]

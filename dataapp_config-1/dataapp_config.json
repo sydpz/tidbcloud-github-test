@@ -1,0 +1,7 @@
+{
+  "app_id": "dataapp-bPuYSRdx",
+  "app_name": "fortune500-api",
+  "app_type": "dataapp",
+  "description": "read some data from fortune500",
+  "app_version": "1.0.0"
+}
